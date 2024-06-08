@@ -9,6 +9,8 @@ import store from './redux/store';
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
+axios.defaults.withCredentials = true;
+
 root.render(
   <StrictMode>
     <ReduxProvider store={store}>
