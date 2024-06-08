@@ -5,6 +5,7 @@ import App from './App';
 import { ChakraProvider, theme } from '@chakra-ui/react';
 import { Provider as ReduxProvider } from 'react-redux';
 import store from './redux/store';
+import axios from 'axios';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
