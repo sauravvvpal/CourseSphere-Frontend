@@ -28,6 +28,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { loadUser } from './redux/actions/user';
 import { ProtectedRoute } from 'protected-route-react';
 import Loader from './components/Layout/Loader/Loader';
+import axios from 'axios';
 
 function App() {
   window.addEventListener('contextmenu', e => {
