@@ -54,7 +54,7 @@ function App() {
   useEffect(() => {
     dispatch(loadUser());
   }, [dispatch]);
-
+axios.defaults.withCredentials=true;
   return (
     <Router>
       {loading ? (
